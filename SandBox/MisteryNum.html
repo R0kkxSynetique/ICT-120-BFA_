@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+
+<body id="bodyHA">
+
+</body>
+
+
+<script>
+
+    alert("C'est un \"devine mon nombre\" entre 0 et 100")
+
+    let secret = Math.floor(Math.random() * 101)
+    let playertry = 0
+
+    do {
+        playertry += 1
+
+        number = prompt("Essai " + playertry)
+
+        if (number < secret) {
+            alert('plus')
+        }
+        if (number > secret) {
+            alert('moins')
+        }
+
+    } while (number != secret)
+
+    document.write("<h1>WIN</h1>" +
+        "Tu as fait " + playertry + " essais")
+
+</script>
+
+</html>

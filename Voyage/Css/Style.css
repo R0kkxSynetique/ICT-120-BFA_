@@ -1,0 +1,37 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2%;
+    background-image: url("../IMG/Montreux.jpg");
+}
+
+.cmd-nav{
+    padding: 15px 20px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: lightskyblue;
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+}
+
+.center{
+    margin: auto;
+    width: fit-content;
+}
+
+#CPNVLogo{
+    width: 10vw;
+}
+
+.page-title{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.hidden{
+    display: none;
+}
