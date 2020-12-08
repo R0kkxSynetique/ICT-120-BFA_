@@ -6,11 +6,54 @@
     background-image: url("../IMG/Montreux.jpg");
 }
 
+.content-flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2%;
+}
+.content-flex-half-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2%;
+    width: 50%;
+}
+
+#HotelPic{
+    height: 75%;
+    width: 75%;
+}
+
+.content-flex-row-half-half{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+.content-flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content-flex-row input{
+    width: 100%
+}
+
 .cmd-nav{
     padding: 15px 20px;
     border-radius: 10px;
     border-color: transparent;
     background-color: lightskyblue;
+}
+
+.cmd-nav-selected{
+    padding: 15px 20px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: deepskyblue;
 }
 
 .banner{
